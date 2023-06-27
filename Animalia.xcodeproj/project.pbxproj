@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43225E0E2A4A538D0053C644 /* Doggy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43225E0A2A4A538D0053C644 /* Doggy.mp3 */; };
+		43225E0F2A4A538D0053C644 /* Windy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43225E0B2A4A538D0053C644 /* Windy.mp3 */; };
+		43225E102A4A538D0053C644 /* Michi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43225E0C2A4A538D0053C644 /* Michi.mp3 */; };
+		43225E112A4A538D0053C644 /* Blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43225E0D2A4A538D0053C644 /* Blue.mp3 */; };
 		43A4F0322A4595C600DE817D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4F0312A4595C600DE817D /* AppDelegate.swift */; };
 		43A4F0342A4595C600DE817D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4F0332A4595C600DE817D /* SceneDelegate.swift */; };
 		43A4F0362A4595C600DE817D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4F0352A4595C600DE817D /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43225E0A2A4A538D0053C644 /* Doggy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Doggy.mp3; sourceTree = "<group>"; };
+		43225E0B2A4A538D0053C644 /* Windy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Windy.mp3; sourceTree = "<group>"; };
+		43225E0C2A4A538D0053C644 /* Michi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Michi.mp3; sourceTree = "<group>"; };
+		43225E0D2A4A538D0053C644 /* Blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blue.mp3; sourceTree = "<group>"; };
 		43A4F02E2A4595C600DE817D /* Animalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A4F0312A4595C600DE817D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A4F0332A4595C600DE817D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43225E092A4A537C0053C644 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				43225E0D2A4A538D0053C644 /* Blue.mp3 */,
+				43225E0A2A4A538D0053C644 /* Doggy.mp3 */,
+				43225E0C2A4A538D0053C644 /* Michi.mp3 */,
+				43225E0B2A4A538D0053C644 /* Windy.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		43A4F0252A4595C600DE817D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +75,7 @@
 		43A4F0302A4595C600DE817D /* Animalia */ = {
 			isa = PBXGroup;
 			children = (
+				43225E092A4A537C0053C644 /* Sounds */,
 				43A4F0312A4595C600DE817D /* AppDelegate.swift */,
 				43A4F0332A4595C600DE817D /* SceneDelegate.swift */,
 				43A4F0352A4595C600DE817D /* ViewController.swift */,
@@ -126,7 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A4F03E2A4595C700DE817D /* LaunchScreen.storyboard in Resources */,
+				43225E0E2A4A538D0053C644 /* Doggy.mp3 in Resources */,
+				43225E0F2A4A538D0053C644 /* Windy.mp3 in Resources */,
+				43225E102A4A538D0053C644 /* Michi.mp3 in Resources */,
 				43A4F03B2A4595C700DE817D /* Assets.xcassets in Resources */,
+				43225E112A4A538D0053C644 /* Blue.mp3 in Resources */,
 				43A4F0392A4595C600DE817D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
